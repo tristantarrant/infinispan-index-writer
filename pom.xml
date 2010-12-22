@@ -10,11 +10,23 @@
 	<artifactId>infinispan-index-writer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Infinispan Index Writer</name>
+	
 	<properties>
 		<version.lucene>3.0.3</version.lucene>
 		<version.infinispan>4.2.0.FINAL</version.infinispan>
 		<version.slf4j>1.6.1</version.slf4j>
 	</properties>
+	
+	<scm>
+		<connection>scm:git:http://github.com/tristantarrant/infinispan-index-writer.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/tristantarrant/infinispan-index-writer.git</developerConnection>
+		<url>http://github.com/tristantarrant/infinispan-index-writer</url>
+	</scm>
+
+	<issueManagement>
+		<url>http://github.com/tristantarrant/infinispan-index-writer/issues</url>
+	</issueManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.infinispan</groupId>
